@@ -16,7 +16,7 @@ const styleClass = computed(() => {
   console.log(999 ,props)
   return {
     [`k-button--${props.type}`]: props.type,
-    'is-palin': props.plain,
+    'is-plain': props.plain,
     'is-round': props.round,
     'is-disabled': props.disabled,
     [`k-button--${props.size}`]: props.size

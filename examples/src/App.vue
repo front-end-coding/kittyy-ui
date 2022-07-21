@@ -1,7 +1,19 @@
-<template>
-  <div><Button type="primary">123123</Button></div> 
-</template>
-<script lang="ts" setup>
-import { Button } from '@ui1024/components'
-
+<script setup lang="ts">
 </script>
+
+<template>
+  <router-view></router-view>
+</template>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+</style>
