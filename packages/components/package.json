@@ -5,14 +5,28 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "build:less": "esno buildLess"
   },
-  "files": ["es", "lib"],
-  "keywords": ["ui", "vue3组件库", "vue3-ui"],
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "ui",
+    "vue3组件库",
+    "vue3-ui"
+  ],
   "author": "xiaoyangGuo",
   "license": "ISC",
   "dependencies": {
     "@ui1024/utils": "workspace:^1.0.0"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "devDependencies": {
+    "@types/less": "^3.0.3",
+    "cpy": "^9.0.1",
+    "esno": "^0.16.3",
+    "fast-glob": "^3.2.11"
+  }
 }

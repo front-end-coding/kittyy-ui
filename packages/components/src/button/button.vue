@@ -13,7 +13,6 @@ import './index.less'
 const props = defineProps(buttonProps);
 
 const styleClass = computed(() => {
-  console.log(999 ,props)
   return {
     [`k-button--${props.type}`]: props.type,
     'is-plain': props.plain,

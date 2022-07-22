@@ -12,6 +12,10 @@
       "esnext",
       "dom"
     ],
+    "rootDirs": [
+      "./",
+      "./packages/components"
+    ],
     "outDir": "./dist"
   }
 }
