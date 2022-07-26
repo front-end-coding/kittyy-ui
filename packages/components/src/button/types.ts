@@ -22,6 +22,7 @@ export const buttonProps = {
   disabled: Boolean,
   icon: Boolean,
   iconPosition: String,
+  circle: Boolean
 }
 
 export type ButtonProps = ExtractPropTypes<typeof buttonProps>

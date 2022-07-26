@@ -18,7 +18,8 @@ const styleClass = computed(() => {
     'is-plain': props.plain,
     'is-round': props.round,
     'is-disabled': props.disabled,
-    [`k-button--${props.size}`]: props.size
+    [`k-button--${props.size}`]: props.size,
+    'is-circle': props.circle,
   }
 })
 
