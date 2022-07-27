@@ -1,12 +1,7 @@
 
 ## Button 按钮
-常用的操作按钮  
-
-### 基础用法
-基础的按钮用法
 
 <script setup>
-import { useData } from 'vitepress'
 import { Button }from '@ui1024/components'
 </script>
 
@@ -38,10 +33,10 @@ import { Button }from '@ui1024/components'
   <Button type="danger" disabled>危险按钮</Button> 
 </pre>
 
-<!-- ### 加载中
+### 加载中
 <pre class="pre">
-  <Button type="primary" :loading="true">加载中</Button>
-</pre> -->
+  <Button type="primary" icon="loading" iconPosition="left">加载中</Button>
+</pre>
 
 ### 不同尺寸
 <pre class="pre">
@@ -51,17 +46,17 @@ import { Button }from '@ui1024/components'
 </pre>
 
 
-<!-- 
+
 ### 圆形
 <pre class="pre">
-  <Button type="primary" circle></Button>
-  <Button type="success" circle></Button>
-  <Button type="info" circle></Button>
-  <Button type="warning" circle></Button>
-  <Button type="danger" circle></Button> 
-</pre> -->
+  <Button type="primary" circle icon="delete" iconPosition="left"></Button>
+  <Button type="success" circle icon="delete" iconPosition="left"></Button>
+  <Button type="info" circle icon="delete" iconPosition="left"></Button>
+  <Button type="warning" circle icon="delete" iconPosition="left"></Button>
+  <Button type="danger" circle icon="delete" iconPosition="left"></Button> 
+</pre>
 
-<style lang="less">
+<style lang="less" scoped>
   .pre {
     display: flex;
     Button + Button {

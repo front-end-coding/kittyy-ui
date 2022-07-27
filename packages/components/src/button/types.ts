@@ -20,7 +20,7 @@ export const buttonProps = {
   plain: Boolean,
   round: Boolean,
   disabled: Boolean,
-  icon: Boolean,
+  icon: String,
   iconPosition: String,
   circle: Boolean
 }
