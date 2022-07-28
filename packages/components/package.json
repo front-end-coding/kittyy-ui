@@ -6,7 +6,8 @@
   "module": "es/index.js",
   "scripts": {
     "build": "vite build",
-    "build:less": "esno buildLess"
+    "build:less": "esno buildLess",
+    "test": "vitest"
   },
   "files": [
     "es",
@@ -25,8 +26,11 @@
   "types": "lib/index.d.ts",
   "devDependencies": {
     "@types/less": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
     "cpy": "^9.0.1",
     "esno": "^0.16.3",
-    "fast-glob": "^3.2.11"
+    "fast-glob": "^3.2.11",
+    "jsdom": "^20.0.0",
+    "vitest": "^0.19.1"
   }
 }
