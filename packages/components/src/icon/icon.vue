@@ -16,7 +16,7 @@ import './index.less';
 const props = defineProps(iconProps);
 
 const iconName = computed(() => {
-  return `#kitty-${props.name}`
+  return `#k-icon-${props.name}`
 })
 
 const styleDot = computed(() => {

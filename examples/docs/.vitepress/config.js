@@ -13,6 +13,7 @@ export default defineConfig({
         items: [
           { text: 'Button', link: '/button/index' },
           { text: 'Icon', link: '/icon/index' },
+          { text: 'Link', link: '/link/index' }
         ]
       }
     ]
