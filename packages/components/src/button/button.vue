@@ -8,6 +8,11 @@
   </button>
 </template>
 
+<script lang="ts">
+export default {
+  name: 'k-button'
+}
+</script>
 <script lang="ts" setup>
 // 在 <script setup> 中必须使用 defineProps 和 defineEmits API 来声明 props 和 emits 
 import { computed } from 'vue'

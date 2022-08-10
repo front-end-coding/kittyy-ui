@@ -20,7 +20,7 @@ importers:
 
   examples:
     specifiers:
-      '@ui1024/components': workspace:^1.0.0
+      '@ui1024/components': workspace:^1.0.1
       vitepress: 1.0.0-alpha.4
     dependencies:
       '@ui1024/components': link:../packages/components
@@ -373,7 +373,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.14_less@4.1.3
+      vite: 2.9.14
       vue: 3.2.36
     dev: true
 

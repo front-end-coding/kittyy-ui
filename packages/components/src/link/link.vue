@@ -6,7 +6,12 @@
   </a>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+export default {
+  name: 'k-link'
+}
+</script>
+<script setup lang="ts" name="k-link">
 import { linkProps } from './types';
 import { computed } from 'vue';
 import './index.less'

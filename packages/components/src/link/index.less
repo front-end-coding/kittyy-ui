@@ -13,81 +13,82 @@
   font-weight: 500;
   transition: color 0.25s;
 
-  &-default {
+  &.k-link-default {
     color: #606266;
    
   };
-  &-primary {
+  &.k-link-primary {
     color: #409eff;
 
     &:hover {
       border-color: #66b1ff;
-      color: #fff;
+      color: #66b1ff;
       text-decoration: underline;
     }
 
     &.is-disabled {
       color: #a0cfff;
+      text-decoration: none;
     }
   }
-  &-success {
+  &.k-link-success {
     color: #67c23a;
 
     &:hover {
       border-color: #85ce61;
-      color: #fff;
+      color: #85ce61;
       text-decoration: underline;
     }
 
     &.is-disabled {
-      color: #85ce61;
+      color: #b3e19d;
+      text-decoration: none;
     }
   }
-  &-warning {
+  &.k-link-warning {
     color: #e6a23c;
 
     &:hover {
       border-color: #ebb563;
-      color: #fff;
+      color: #ebb563;
       text-decoration: underline;
     }
 
     &.is-disabled {
-      color: #ebb563;
+      color: #f3d19e;
+      text-decoration: none;
     }
   }
-  &-info {
+  &.k-link-info {
     color: #909399;
 
     &:hover {
       border-color: #a6a9ad;
-      color: #fff;
+      color: #a6a9ad;
       text-decoration: underline;
     }
 
     &.is-disabled {
-      color: #a6a9ad;
+      color: #c8c9cc;
+      text-decoration: none;
     }
   }
 
-  &-danger {
+  &.k-link-danger {
     color: #f56c6c;
     &:hover {
       border-color: #f78989;
-      color: #fff;
+      color: #f78989;
       text-decoration: underline;
     }
 
     &.is-disabled {
       color: #f78989;
+      text-decoration: none;
     }
   }
 }
 
 .is-disabled {
   cursor: not-allowed;
-  color: #c0c4cc;
-  &:hover {
-    text-decoration: none;
-  }
 }

@@ -6,8 +6,8 @@ import fs from 'fs';
 
 
 const sourceDir = resolve(__dirname, './src');
-const targetLib = resolve(__dirname, './lib');
-const targetEs = resolve(__dirname, './es');
+const targetLib = resolve(__dirname, './dist/lib');
+const targetEs = resolve(__dirname, './dist/es');
 
 
 const buildLess = async () => {

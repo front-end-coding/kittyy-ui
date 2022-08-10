@@ -23,7 +23,7 @@ export default defineConfig({
           //让打包目录和我们目录对应
           preserveModules: true,
           //配置打包根目录
-          dir: 'es',
+          dir: './dist/es',
           preserveModulesRoot: 'src'
         },
         {
@@ -33,7 +33,7 @@ export default defineConfig({
           //让打包目录和我们目录对应
           preserveModules: true,
           //配置打包根目录
-          dir: 'lib',
+          dir: './dist/lib',
           preserveModulesRoot: 'src'
         }
       ]
@@ -46,12 +46,13 @@ export default defineConfig({
   plugins: [
     vue(),
     dts({
+      outputDir: './dist/es',
       //指定使用的tsconfig.json为我们整个项目根目录,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: '../../tsconfig.json'
     }),
     //因为这个插件默认打包到es下，我们想让lib目录下也生成声明文件需要再配置一个
     dts({
-      outputDir: 'lib',
+      outputDir: './dist/lib',
       tsConfigFilePath: '../../tsconfig.json'
     }),
     // 针对buil的roolup的钩子
@@ -60,7 +61,6 @@ export default defineConfig({
       generateBundle(config, bundle) {
         //这里可以获取打包后的文件目录以及代码code
         const keys = Object.keys(bundle);
-        console.log(9999, keys)
         for (const key of keys) {
           const bundler: any = bundle[key as any]
           //rollup内置方法,将所有输出文件code中的.less换成.css,因为我们当时没有打包less文件

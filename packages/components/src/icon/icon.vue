@@ -7,7 +7,12 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+export default {
+  name: 'k-icon'
+}
+</script>
+<script setup lang="ts" name="k-icon">
 import { computed } from 'vue';
 import { iconProps } from './types';
 import './font/iconfont.js';

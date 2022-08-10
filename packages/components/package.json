@@ -1,9 +1,9 @@
 {
   "name": "@ui1024/components",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.js",
+  "version": "1.0.1",
+  "description": "vue3组件库",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
   "scripts": {
     "build": "vite build",
     "build:less": "esno buildLess",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@ui1024/utils": "workspace:^1.0.0"
   },
-  "types": "lib/index.d.ts",
+  "types": "./dist/lib/index.d.ts",
   "devDependencies": {
     "@types/less": "^3.0.3",
     "@vue/test-utils": "^2.0.2",
