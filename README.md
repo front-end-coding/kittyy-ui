@@ -10,9 +10,10 @@
      2. 单独为每个组件打包css，`pnpm --filter "@ui1024/components" run build:less`
 
   2. 组件库文档
-     1. pnpm --filter "examples" docs:dev
+     1. pnpm --filter "site" docs:dev
 
 
 ### 组件库完成度
   1. Button 
   2. Icon
+  3. Link
