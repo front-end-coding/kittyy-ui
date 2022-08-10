@@ -7,17 +7,14 @@ titleTemplate: 一个Vue3组件库
 hero:
   name: Kitty
   text: 一个Vue3组件库
-  tagline: 练习练习
-  image:
-    src: /logo.png
-    alt: Kitty
+  tagline: 练习练习流程
   actions:
     - theme: brand
       text: 开始
       link: /guide/
     - theme: alt
-      text: 在 Gitee 上查看
-      link: https://gitee.com/geeksdidi/kittyui
+      text: 在 Github 上查看
+      link: https://github.com/front-end-lowcode/kittyy-ui
 
 features:
   - icon: 💡
