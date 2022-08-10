@@ -17,3 +17,9 @@
   1. Button 
   2. Icon
   3. Link
+
+
+### 遗留问题
+   - 使用vitest，引入的iconfont.js报错
+   - vitepress打包，由于ssr渲染，引入的iconfont.js含有window对象导致的报错
+   - iconfont使用symbol引入的方式太傻比

@@ -1,3 +1,9 @@
-export { default as KButton } from './button'
-export { default as KIcon } from './Icon'
-export { default as KLink } from './Link'
+import Button from './button';
+import Icon from './icon'
+import Link from './link'
+
+export {
+  Button,
+  Icon,
+  Link
+}

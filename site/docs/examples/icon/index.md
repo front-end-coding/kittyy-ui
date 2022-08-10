@@ -1,10 +1,6 @@
 
 ## k-icon 图标
 
-<script setup>
-import { KIcon  }from '@ui1024/components'
-</script>
-
 ### 基础图标
 
 <div class="wrapper">

@@ -1,19 +1,14 @@
 
 ## Button 按钮
 
-<script setup>
-import { KButton }from '@ui1024/components'
-</script>
-
 ### 基本按钮
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary">主要按钮</k-button>
   <k-button type="success">成功按钮</k-button>
   <k-button type="info">信息按钮</k-button>
   <k-button type="warning">警告按钮</k-button>
   <k-button type="danger">危险按钮</k-button>
-</pre>
-
+</div>
 <details>
 <summary>展开查看</summary>
 
@@ -28,16 +23,14 @@ import { KButton }from '@ui1024/components'
 ```
 </details>
 
-
-
 ### 圆角按钮
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary" round>主要按钮</k-button>
   <k-button type="success" round>成功按钮</k-button>
   <k-button type="info" round>信息按钮</k-button>
   <k-button type="warning" round>警告按钮</k-button>
   <k-button type="danger" round>危险按钮</k-button> 
-</pre>
+</div>
 
 <details>
 <summary>展开查看</summary>
@@ -54,13 +47,13 @@ import { KButton }from '@ui1024/components'
 </details>
 
 ### 禁用状态
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary" disabled>主要按钮</k-button>
   <k-button type="success" disabled>成功按钮</k-button>
   <k-button type="info" disabled>信息按钮</k-button>
   <k-button type="warning" disabled>警告按钮</k-button>
   <k-button type="danger" disabled>危险按钮</k-button> 
-</pre>
+</div>
 
 <details>
 <summary>展开查看</summary>
@@ -77,9 +70,9 @@ import { KButton }from '@ui1024/components'
 </details>
 
 ### 加载中
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary" icon="loading" iconPosition="left">加载中</k-button>
-</pre>
+</div>
 
 <details>
 <summary>展开查看</summary>
@@ -92,11 +85,11 @@ import { KButton }from '@ui1024/components'
 </details>
 
 ### 不同尺寸
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary" size="medium">主要按钮</k-button>
   <k-button type="info" size="small">信息按钮</k-button>
   <k-button type="warning" size="mini">警告按钮</k-button>
-</pre>
+</div>
 
 <details>
 <summary>展开查看</summary>
@@ -113,13 +106,13 @@ import { KButton }from '@ui1024/components'
 
 
 ### 圆形
-<pre class="pre">
+<div class="wrapper">
   <k-button type="primary" circle icon="delete" iconPosition="left"></k-button>
   <k-button type="success" circle icon="delete" iconPosition="left"></k-button>
   <k-button type="info" circle icon="delete" iconPosition="left"></k-button>
   <k-button type="warning" circle icon="delete" iconPosition="left"></k-button>
   <k-button type="danger" circle icon="delete" iconPosition="left"></k-button> 
-</pre>
+</div>
 
 <details>
 <summary>展开查看</summary>
@@ -136,8 +129,9 @@ import { KButton }from '@ui1024/components'
 </details>
 
 <style lang="less" scoped>
-  .pre {
+  .wrapper {
     display: flex;
+    margin-top: 10px;
     .k-button + .k-button {
       margin-left: 10px;
     }

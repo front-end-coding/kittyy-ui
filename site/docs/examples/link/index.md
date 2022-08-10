@@ -1,20 +1,5 @@
 ## k-link 超链接
 
-<script setup>
-import { KLink }from '@ui1024/components'
-import { onMounted } from 'vue'
-
-// onMounted(() => {
-//   console.log(222);
-//   const ele = document.querySelector('.vp-doc');
-//   const eleA = ele.querySelectorAll('a');
-//   eleA.forEach((e) => {
-//     e.removeAttribute('color')
-//   })
-//   console.log(333, eleA)
-// })
-</script>
-
 ### 基本链接
 <div class="pre">
   <k-link type="primary">主要按钮</k-link>
@@ -36,7 +21,6 @@ import { onMounted } from 'vue'
 
 
 <style lang="less">
-
   .pre {
     display: flex;
   
