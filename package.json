@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev:doc": "pnpm --filter 'site' docs:dev",
-    "build": "pnpm --filter '@ui1024/components' run build && tsc",
+    "build": "pnpm --filter '@ui1024/components' run build",
     "build:less": "pnpm --filter '@ui1024/components' run build:less",
     "build:doc": "pnpm --filter 'site' docs:build"
   },
