@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "jsx": "preserve",
     "strict": true,
     "target": "ES2015",
@@ -12,10 +11,5 @@
       "esnext",
       "dom"
     ],
-    "rootDirs": [
-      "./",
-      "./packages/components"
-    ],
-    "outDir": "./dist"
   }
 }

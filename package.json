@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:doc": "pnpm --filter 'site' docs:dev",
+    "build": "pnpm --filter '@ui1024/components' run build && tsc",
+    "build:less": "pnpm --filter '@ui1024/components' run build:less",
+    "build:doc": "pnpm --filter 'site' docs:build"
   },
   "keywords": [],
   "author": "",
