@@ -1,5 +1,1 @@
-import Button from './src/button';
-
-export {
-  Button
-}
+export * from './src/index'

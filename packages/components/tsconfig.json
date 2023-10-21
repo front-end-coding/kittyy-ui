@@ -1,11 +1,17 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    // tsc declare配置
+    // "outDir": "dist",
+    // "declaration": true,
+    // "declarationDir": "./dist/es/types",
+    // "emitDeclarationOnly": true
   },
   "include": [
     "../../env.d.ts",
